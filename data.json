@@ -6,7 +6,7 @@
 			"description": "",
 			"capacity":"",
 			"utilities": "",
-			"category":	""		
+			"category":	"ERC"		
 		},
 		{
 			"name": "Peets",
@@ -46,15 +46,15 @@
 			"description": "below Fireside Lounge/Laundry",
 			"capacity":"20",
 			"utilities": "couches",
-			"category":	"Muir"			
+			"category":	"Marshall"			
 		},
 		{
 			"name": "Fireside Lounge",
 			"region": "Marshall",
 			"description": "near Goody's Place & Market",
 			"capacity":"20",
-			"utilities": "",
-			"category":	"Muir"			
+			"utilities": "couches, tables",
+			"category":	"Marshall"			
 		},
 		{
 			"name": "Muir Woods",

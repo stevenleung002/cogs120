@@ -19,3 +19,16 @@ exports.view = function(req, res){
 
 	res.render('place', filterData);
 };
+exports.details = function(req,res){
+	console.log("name is " + req.params.name);
+	var jsonObj = {};
+	//find the correct place
+	var locationArr = data.locations;
+	for (var i = 0; i < locationArr.length; i++) {
+	   	if(locationArr[i].name.toUpperCase() === req.params.name.toUpperCase()){
+	   		jsonObj = locationArr[i];
+	   		break;
+	   	}
+	}
+	res.render('details', jsonObj);
+}

@@ -222,7 +222,8 @@ position:relative;
 }
 
 #note_utilisateur-button span.ui-btn-text{
-background:url(/images/pagination.png) no-repeat;
+background:url(/images/fullness_icon_tb.png) no-repeat;
+background-size: 36px 20px;
 } 
 
 #note_utilisateur-button span.ui-btn-inner{
@@ -234,25 +235,26 @@ content: "   ";
 display:inline-block;
 width:115px;
 height:20px;
-background:url(/images/pagination.png) no-repeat;
+background:url(/images/fullness_icon_tb.png) no-repeat;
+background-size: 36px 20px;
 position:absolute;
 left:0px;
 }
 .one #note_utilisateur-button span.ui-btn-text,
 #note_utilisateur-menu li a:before{
-background-position: -75px -182px;
+background-position: -27px 0px;
 }
 .two #note_utilisateur-button span.ui-btn-text,
 #note_utilisateur-menu li + li a:before{
-background-position: -52px -182px;
+background-position: -18px 0px;
 }
 .three #note_utilisateur-button span.ui-btn-text,
 #note_utilisateur-menu li + li +li a:before{
-background-position: -27px -182px;
+background-position: -9px 0px;
 }
 .four #note_utilisateur-button span.ui-btn-text,
 #note_utilisateur-menu li + li +li +li a:before{
-background-position: -2px -182px;
+background-position: 0px 0px;
 }
 
 .description {
