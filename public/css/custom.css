@@ -255,4 +255,6 @@ background-position: -27px -182px;
 background-position: -2px -182px;
 }
 
-
+.description {
+	font-size: 75%;
+}
