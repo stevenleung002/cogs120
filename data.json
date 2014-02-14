@@ -1,34 +1,220 @@
 {
-	"friends": [
+	"locations": [
 		{
-			"name": "Doug Engelbart",
-			"description": "Has awesome pet mice",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+			"name": "Gliderport Lounge",
+			"region": "ERC",
+			"description": "",
+			"capacity":"",
+			"utilities": "",
+			"category":	""		
 		},
 		{
-			"name": "Ivan Sutherland",
-			"description": "Great at sketching",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Ivan_Sutherland_at_CHM.jpg"			
+			"name": "Peets",
+			"region": "ERC",
+			"description": "near HomePlate and RIMAC",
+			"capacity":"20",
+			"utilities": "couches, acms computers, coffee",
+			"category":	"ERC"			
 		},
 		{
-			"name": "Lucy Suchman",
-			"description": "Loves Trukese navigators",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/d/df/Lucy_Suchman.jpeg"			
+			"name": "S&E",
+			"region": "Geisel",
+			"description": "science and engineering side of Geisel's basement",
+			"capacity":"60",
+			"utilities": "tables, cell-phone reception, power outlets, group study, natural light",
+			"category":	"Libraries"
+		},		
+		{
+			"name": "BML",
+			"region": "Med School",
+			"description": "biomedical library, cross the footbridge near Urey Hall or come around from the Med School Side of Gilman&Myers",
+			"capacity":"100",
+			"utilities": "tables, ACMS computers, study rooms",
+			"category":	"Libraries"		
 		},
 		{
-			"name": "Vannevar Bush",
-			"description": "Has stellar associative memory",
-			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/e/ea/Vannevar_Bush_portrait.jpg"			
+			"name": "Arts and Humanities",
+			"region": "Geisel",
+			"description": "basement of Geisel",
+			"capacity":"100",
+			"utilities": "group study tables, acms computers, access to media reserves",
+			"category":	"Libraries"			
 		},
 		{
-			"name": "Grace Hopper",
-			"description": "Only friend with a Navy ship named after them",
-			"imageURL": "http://www.personal.psu.edu/djd5202/gHop.jpg"
+			"name": "Commuter Lounge",
+			"region": "Marshall",
+			"description": "below Fireside Lounge/Laundry",
+			"capacity":"20",
+			"utilities": "couches",
+			"category":	"Muir"			
 		},
 		{
-			"name": "Allen Newell",
-			"description": "Really into psychology",
-			"imageURL": "http://www.nap.edu/html/biomems/photo/anewell.JPG"
+			"name": "Fireside Lounge",
+			"region": "Marshall",
+			"description": "near Goody's Place & Market",
+			"capacity":"20",
+			"utilities": "",
+			"category":	"Muir"			
+		},
+		{
+			"name": "Muir Woods",
+			"region": "Muir",
+			"description": "below Pines Dining Hall",
+			"capacity":"20",
+			"utilities": "indoors: couches, coffee; outdoors: study ledges and tables",
+			"category":	"Muir"			
+		},
+		{
+			"name": "AP&M Basement",
+			"region": "Muir",
+			"description": "basement of Applied Physics and Mathematics building",
+			"capacity":"50",
+			"utilities": "acms computer labs, math helproom",
+			"category":	"Muir"			
+		},
+		{
+			"name": "MOM",
+			"region": "Muir",
+			"description": "adjacent to Muir Woods Coffee Shop",
+			"capacity":"30",
+			"utilities": "tables, couches, 2 acms computers, printer",
+			"category":	"Muir"			
+		},
+		{
+			"name": "Perks",
+			"region": "Price Center",
+			"description": "ground level floor of bookstore",
+			"capacity":"30",
+			"utilities": "tables, coffee, coffee-shop music",
+			"category":	"Nearby"			
+		},
+		{
+			"name": "Cafe Espresso Roma",
+			"region": "Price Center",
+			"description": "near Subway",
+			"capacity":"30",
+			"utilities": "tables, coffee, ambient light and music",
+			"category":	"Nearby"			
+		},
+		{
+			"name": "Cross Cultural Center Lobby",
+			"region": "Price Center",
+			"description": "above TapEx",
+			"capacity":"15",
+			"utilities": "acms computers, printer",
+			"category":	"Nearby"			
+		},
+		{
+			"name": "PC Theatre",
+			"region": "Price Center",
+			"description": "first floor of PC, hallway by the theater proper",
+			"capacity":"15",
+			"utilities": "couches, tables",
+			"category":	"Nearby"			
+		},
+		{
+			"name": "Secret Garden",
+			"region": "Mandeville",
+			"description": "near the shuttle loop (when you go into the theatre foyer, there's an open kitchen area, and there, a glass sliding door leads to a lone wooden bench and table",
+			"capacity":"8",
+			"utilities": "tables, quiet",
+			"category":	"Other"			
+		},
+		{
+			"name": "Women's Center",
+			"region": "Old Student Center",
+			"description": "above HiThai",
+			"capacity":"20",
+			"utilities": "printer, couches, tables",
+			"category":	"Other"			
+		},
+		{
+			"name": "Tree House Lounge",
+			"region": "Old Student Center",
+			"description": "above General Store Co-Op",
+			"capacity":"13",
+			"utilities": "acms computers",
+			"category":	"Other"			
+		},
+		{
+			"name": "LGBTRC",
+			"region": "Old Student Center",
+			"description": "up the stairs near the Mandeville Coffee Cart",
+			"capacity":"30",
+			"utilities": "tables, acms computers, printer",
+			"category":	"Other"			
+		},
+		{
+			"name": "Commuter Lounge",
+			"region": "Revelle",
+			"description": "ground level floor of Blake Hall",
+			"capacity":"15",
+			"utilities": "couches, tables",
+			"category":	"Revelle"			
+		},
+		{
+			"name": "Galbraith Study Hall",
+			"region": "Revelle",
+			"description": "formerly known as CLICS",
+			"capacity":"100",
+			"utilities": "tables, bright lighting",
+			"category":	"Revelle"			
+		},
+		{
+			"name": "Steps",
+			"region": "Pepper Canyon",
+			"description": "",
+			"capacity":"50",
+			"utilities": "giant concrete steps, shade from tree, natural light",
+			"category":	"Sixth"			
+		},
+		{
+			"name": "Couches",
+			"region": "CPMC",
+			"description": "outside of practice rooms in Conrad Prebys Music Center",
+			"capacity":"5",
+			"utilities": "couches, quiet",
+			"category":	"Sixth"			
+		},
+		{
+			"name": "B230",
+			"region": "CSE",
+			"description": "",
+			"capacity":"",
+			"utilities": "acms computers",
+			"category":	"Warren"			
+		},
+		{
+			"name": "B240",
+			"region": "CSE",
+			"description": "",
+			"capacity":"",
+			"utilities": "acms computers",
+			"category":	"Warren"			
+		},
+		{
+			"name": "B250",
+			"region": "CSE",
+			"description": "",
+			"capacity":"",
+			"utilities": "acms computers",
+			"category":	"Warren"			
+		},
+		{
+			"name": "B260",
+			"region": "CSE",
+			"description": "",
+			"capacity":"",
+			"utilities": "acms computers",
+			"category":	"Warren"			
+		},
+		{
+			"name": "B270",
+			"region": "CSE",
+			"description": "",
+			"capacity":"",
+			"utilities": "acms computers",
+			"category":	"Warren"			
 		}
 	]
 }
