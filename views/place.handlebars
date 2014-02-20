@@ -25,9 +25,9 @@
 	<div class="choice_list"> 
 	<h1> Please choose a place to study.</h1>
 	
-	<ul data-role="listview" data-inset="true" >
+	<ul data-role="listview" data-inset="true" data-filter="true">
 	{{#each locations}}
-		<li><a href="/place/details/{{name}}" data-transition="slidedown"> <h2>{{name}}</h2>
+		<li><a href="/place/details/{{name}}" data-transition="pop"> <h2>{{name}}</h2>
 			<h6 class="description">{{description}}</h6></a></li>
 	{{/each}}
 	</ul>	
