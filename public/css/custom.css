@@ -260,3 +260,30 @@ background-position: 0px 0px;
 .description {
 	font-size: 75%;
 }
+
+.fullness{
+content: "   ";
+display:inline-block;
+width:115px;
+height:20px;
+background:url(/images/fullness_icon_tb.png) no-repeat;
+background-size: 36px 20px;
+margin-left:auto;
+margin-right: auto;
+}
+
+.level-one{
+background-position: -27px 0px
+}
+
+.level-two{
+background-position: -18px 0px;
+}
+
+.level-three{
+background-position: -9px 0px;
+}
+
+.level-four{
+background-position: 0px 0px;
+}

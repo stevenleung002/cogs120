@@ -6,7 +6,8 @@
 			"description": "",
 			"capacity":"",
 			"utilities": "",
-			"category":	"ERC"		
+			"category":	"ERC",
+			"level": "level-one"		
 		},
 		{
 			"name": "Peets",
@@ -14,7 +15,8 @@
 			"description": "near HomePlate and RIMAC",
 			"capacity":"20",
 			"utilities": "couches, acms computers, coffee",
-			"category":	"ERC"			
+			"category":	"ERC",
+			"level": "level-two"			
 		},
 		{
 			"name": "S&E",
@@ -22,7 +24,8 @@
 			"description": "science and engineering side of Geisel's basement",
 			"capacity":"60",
 			"utilities": "tables, cell-phone reception, power outlets, group study, natural light",
-			"category":	"Libraries"
+			"category":	"Libraries",
+			"level": "level-four"
 		},		
 		{
 			"name": "BML",
@@ -30,7 +33,8 @@
 			"description": "biomedical library, cross the footbridge near Urey Hall or come around from the Med School Side of Gilman&Myers",
 			"capacity":"100",
 			"utilities": "tables, ACMS computers, study rooms",
-			"category":	"Libraries"		
+			"category":	"Libraries",
+			"level": "level-two"		
 		},
 		{
 			"name": "Arts and Humanities",
@@ -38,7 +42,8 @@
 			"description": "basement of Geisel",
 			"capacity":"100",
 			"utilities": "group study tables, acms computers, access to media reserves",
-			"category":	"Libraries"			
+			"category":	"Libraries",
+			"level": "level-three"			
 		},
 		{
 			"name": "Commuter Lounge",
@@ -46,7 +51,8 @@
 			"description": "below Fireside Lounge/Laundry",
 			"capacity":"20",
 			"utilities": "couches",
-			"category":	"Marshall"			
+			"category":	"Marshall",
+			"level": "level-one"			
 		},
 		{
 			"name": "Fireside Lounge",
@@ -54,7 +60,8 @@
 			"description": "near Goody's Place & Market",
 			"capacity":"20",
 			"utilities": "couches, tables",
-			"category":	"Marshall"			
+			"category":	"Marshall",
+			"level": "level-one"			
 		},
 		{
 			"name": "Muir Woods",
@@ -62,7 +69,8 @@
 			"description": "below Pines Dining Hall",
 			"capacity":"20",
 			"utilities": "indoors: couches, coffee; outdoors: study ledges and tables",
-			"category":	"Muir"			
+			"category":	"Muir",
+			"level": "level-two"			
 		},
 		{
 			"name": "AP&M Basement",
@@ -70,7 +78,8 @@
 			"description": "basement of Applied Physics and Mathematics building",
 			"capacity":"50",
 			"utilities": "acms computer labs, math helproom",
-			"category":	"Muir"			
+			"category":	"Muir",
+			"level": "level-four"			
 		},
 		{
 			"name": "MOM",
@@ -78,7 +87,8 @@
 			"description": "adjacent to Muir Woods Coffee Shop",
 			"capacity":"30",
 			"utilities": "tables, couches, 2 acms computers, printer",
-			"category":	"Muir"			
+			"category":	"Muir",
+			"level": "level-three"			
 		},
 		{
 			"name": "Perks",
@@ -86,7 +96,8 @@
 			"description": "ground level floor of bookstore",
 			"capacity":"30",
 			"utilities": "tables, coffee, coffee-shop music",
-			"category":	"Nearby"			
+			"category":	"Nearby",
+			"level": "level-four"			
 		},
 		{
 			"name": "Cafe Espresso Roma",
@@ -94,7 +105,8 @@
 			"description": "near Subway",
 			"capacity":"30",
 			"utilities": "tables, coffee, ambient light and music",
-			"category":	"Nearby"			
+			"category":	"Nearby",
+			"level": "level-three"			
 		},
 		{
 			"name": "Cross Cultural Center Lobby",
@@ -102,7 +114,8 @@
 			"description": "above TapEx",
 			"capacity":"15",
 			"utilities": "acms computers, printer",
-			"category":	"Nearby"			
+			"category":	"Nearby",
+			"level": "level-one"			
 		},
 		{
 			"name": "PC Theatre",
@@ -110,7 +123,8 @@
 			"description": "first floor of PC, hallway by the theater proper",
 			"capacity":"15",
 			"utilities": "couches, tables",
-			"category":	"Nearby"			
+			"category":	"Nearby",
+			"level": "level-two"			
 		},
 		{
 			"name": "Secret Garden",
@@ -118,7 +132,8 @@
 			"description": "near the shuttle loop (when you go into the theatre foyer, there's an open kitchen area, and there, a glass sliding door leads to a lone wooden bench and table",
 			"capacity":"8",
 			"utilities": "tables, quiet",
-			"category":	"Other"			
+			"category":	"Other",
+			"level": "level-one"			
 		},
 		{
 			"name": "Women's Center",
@@ -126,7 +141,8 @@
 			"description": "above HiThai",
 			"capacity":"20",
 			"utilities": "printer, couches, tables",
-			"category":	"Other"			
+			"category":	"Other",
+			"level": "level-one"			
 		},
 		{
 			"name": "Tree House Lounge",
@@ -134,7 +150,8 @@
 			"description": "above General Store Co-Op",
 			"capacity":"13",
 			"utilities": "acms computers",
-			"category":	"Other"			
+			"category":	"Other",
+			"level": "level-one"			
 		},
 		{
 			"name": "LGBTRC",
@@ -142,7 +159,8 @@
 			"description": "up the stairs near the Mandeville Coffee Cart",
 			"capacity":"30",
 			"utilities": "tables, acms computers, printer",
-			"category":	"Other"			
+			"category":	"Other",
+			"level": "level-two"			
 		},
 		{
 			"name": "Commuter Lounge",
@@ -150,7 +168,8 @@
 			"description": "ground level floor of Blake Hall",
 			"capacity":"15",
 			"utilities": "couches, tables",
-			"category":	"Revelle"			
+			"category":	"Revelle",
+			"level": "level-one"			
 		},
 		{
 			"name": "Galbraith Study Hall",
@@ -158,7 +177,8 @@
 			"description": "formerly known as CLICS",
 			"capacity":"100",
 			"utilities": "tables, bright lighting",
-			"category":	"Revelle"			
+			"category":	"Revelle",
+			"level": "level-four"			
 		},
 		{
 			"name": "Steps",
@@ -166,7 +186,8 @@
 			"description": "",
 			"capacity":"50",
 			"utilities": "giant concrete steps, shade from tree, natural light",
-			"category":	"Sixth"			
+			"category":	"Sixth",
+			"level": "level-one"			
 		},
 		{
 			"name": "Couches",
@@ -174,7 +195,8 @@
 			"description": "outside of practice rooms in Conrad Prebys Music Center",
 			"capacity":"5",
 			"utilities": "couches, quiet",
-			"category":	"Sixth"			
+			"category":	"Sixth",
+			"level": "level-one"			
 		},
 		{
 			"name": "B230",
@@ -182,7 +204,8 @@
 			"description": "",
 			"capacity":"",
 			"utilities": "acms computers",
-			"category":	"Warren"			
+			"category":	"Warren",
+			"level": "level-three"			
 		},
 		{
 			"name": "B240",
@@ -190,7 +213,8 @@
 			"description": "",
 			"capacity":"",
 			"utilities": "acms computers",
-			"category":	"Warren"			
+			"category":	"Warren",
+			"level": "level-three"			
 		},
 		{
 			"name": "B250",
@@ -198,7 +222,8 @@
 			"description": "",
 			"capacity":"",
 			"utilities": "acms computers",
-			"category":	"Warren"			
+			"category":	"Warren",
+			"level": "level-two"			
 		},
 		{
 			"name": "B260",
@@ -206,7 +231,8 @@
 			"description": "",
 			"capacity":"",
 			"utilities": "acms computers",
-			"category":	"Warren"			
+			"category":	"Warren",
+			"level": "level-two"			
 		},
 		{
 			"name": "B270",
@@ -214,7 +240,8 @@
 			"description": "",
 			"capacity":"",
 			"utilities": "acms computers",
-			"category":	"Warren"			
+			"category":	"Warren",
+			"level": "level-four"			
 		}
 	]
 }
