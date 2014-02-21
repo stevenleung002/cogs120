@@ -56,12 +56,11 @@ box-sizing: border-box;
 
 .back-button{
 	float:left;
-	margin: 15px 0px 0px 20px;
+	margin: 5px 0px 0px 20px;
 }
 
-.back-button img {
-	height: 25px;
-	width: 23px;
+#back-arrow{
+	width: 50px;
 }
 
 /* title bar */
