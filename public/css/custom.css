@@ -90,15 +90,15 @@ box-shadow:none;
 /*background:url(/images/logo.png) no-repeat; */
 background-color: #5C1111;
 width: inherit;
-height:100px;
+height:80px;
 /*text-indent:-999px; */
-padding-top: 25px;
+padding-top: 20px;
 border-bottom:1px solid rgba(65, 38, 37, 0.6);
 }
 
 #branding h1{
 margin: auto;
-font-size: 50pt;
+font-size: 45pt;
 font-family: "Mission-Script";
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 color: #FFFFFF;
