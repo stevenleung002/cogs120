@@ -54,8 +54,18 @@ box-sizing: border-box;
 }
 
 
+.back-button{
+	float:left;
+	margin: -43px 0px 0px 18px;
+}
 
 
+#back-arrow{
+	-webkit-filter: invert(80%);
+	border: 1px solid white;
+	border-radius: 100px;
+	width: 30px;
+}
 
 /* title bar */
 .ui-header.ui-bar-a{
@@ -79,19 +89,37 @@ background:rgba(0, 0, 0, 0.3);
 box-shadow:none;
 }
 
-
-
+@font-face{
+	font-family: "Mission-Script";
+	src: url("/fonts/Mission-Script.otf");
+}
 
 /*** home **/
 
 #branding{
-background:url(/images/logo.png) no-repeat;
-width:380px;
-height:165px;
-text-indent:-999px;
-font-size:0px;
-margin:-10px auto 0 auto;
+/*background:url(/images/logo.png) no-repeat; */
+background-color: #5C1111;
+width: inherit;
+height:80px;
+/*text-indent:-999px; */
+padding-top: 20px;
 border-bottom:1px solid rgba(65, 38, 37, 0.6);
+}
+
+#branding h1{
+margin: auto;
+font-family: "Mission-Script";
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+color: #FFFFFF;
+}
+
+#indexheader {
+	font-size: 45pt;
+}
+
+#pageheader {
+	font-size: 35pt;
+	padding-top: 10px; 
 }
 
 .choice_list h1{
