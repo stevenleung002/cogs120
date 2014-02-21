@@ -40,6 +40,7 @@ if ('development' == app.get('env')) {
 app.get('/', index.view);
 app.get('/place/:category', place.view);
 app.get('/place/details/:name', place.details);
+app.get('/place/update/:name/:level', place.update);
 // Example route
 // app.get('/users', user.list);
 app.get('/add', add.addFriend);
@@ -47,5 +48,7 @@ app.get('/add', add.addFriend);
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
+
+
 
 
