@@ -56,11 +56,11 @@ box-sizing: border-box;
 
 .back-button{
 	float:left;
-	margin: 5px 0px 0px 20px;
+	margin: -45px 0px 0px 10px;
 }
 
 #back-arrow{
-	width: 50px;
+	width: 30px;
 }
 
 /* title bar */
