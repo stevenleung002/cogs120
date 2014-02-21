@@ -3,7 +3,7 @@
 <head> 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-	<title>STUDYROOMTITLE</title> 
+	<title>{{name}}</title> 
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link rel="stylesheet" href="/css/jquery.mobile.structure-1.0.1.css" />
 	<link rel="apple-touch-icon" href="/images/launch_icon_57.png" />
@@ -17,56 +17,37 @@
 <body> 
 <div id="studyroom" data-role="page" data-add-back-btn="true">
 	
-	<div data-role="header"> 
-		<h1>STUDYROOMTITLE</h1>
+	<div data-role="header">
+        <h1>{{name}}</h1>
 	</div> 
-	
-	<div data-role="content">
-	<div class="ui-grid-a" id="studyroom_infos">	
-		<div class="ui-block-a">
-		<!-- <h1> FULLNESS METER :</h1> -->
-		<p>Place : {{name}} <p>
-		<p>Description : {{description}}</p>
-		<p>Location : {{region}}</p>
-		<p>Approx. Capacity : {{capacity}}</p>
-		<p>Utilities : {{utilities}}</p>
-			<ul> 
-				<li>Couches</li>
-			</ul>			
-		</div>		
-		<!--<div class="ui-block-b">
-		<p><img src="restau01.jpg" alt="jeannette photo"/></p>
-		<p><a href="http://www.google.fr" rel="external" data-role="button"> See our website</a></p>
-		</div>-->
-	</div><!-- /grid-a -->
-	<hr/>
-	
-	<div class="ui-grid-a" id="contact_infos">	
-		<div class="ui-block-a">
-		<!--<h2> </h2>
-		<p>30 Rue des Tonneliers</p>
-		<p> 67000 Strasbourg	</p>		
-		</div>		-->
-		<div class="ui-block-b">
-		<img src="/images/01_maps.jpg" alt="plan jeanette"/>
-		</div>
-	</div><!-- /grid-a -->
-	<!--<div id="contact_buttons">	
-		<a href="http://maps.google.fr/maps?q=jeannette+et+les+cycleux&hl=fr&sll=46.75984,1.738281&sspn=10.221882,18.764648&hq=jeannette+et+les+cycleux&t=m&z=13&iwloc=A" data-role="button" data-icon="maps"> Find us on Google Maps </a> 	
-		<a href="tel:0388161072"  data-role="button" data-icon="tel"> Call us </a>	
-	</div>	-->
-
-	<div id="notation">	
+ 
+	<p id="name">{{name}} <p>
+<div id="notation">	
 	<form>
-	<label for="select-choice-0" class="select"><h2> User rating </h2></label>
 		<select name="note_utilisateur" id="note_utilisateur" data-native-menu="false" data-theme="c" >
 		   <option value="one" class="one"> Empty </option>
 		   <option value="two" class="two"> Slightly Empty </option>
-		   <option value="three" class="three"> Slightly Full </option>
+		   <option selected="seleced" value="three" class="three"> Slightly Full </option>
 		   <option value="four" class="four"> Full </option>
 		</select>	
 	</form>
 	</div>
+
+<div>
+<img src="/images/studyroom.jpg" alt="Smiley face" align="center"/>
+</div>	
+<div id="place-description">
+<p class = "label">Location</p>
+<p class ="word">{{region}}</p>
+<p class = "label">Description</p><img src="smiley.gif" alt="Smiley face"/>
+<p class = "word">{{description}}</p>
+</div>
+	
+	<img src="/images/map.png" alt="plan jeanette"/><!-- /grid-a -->
+	<!--<div id="contact_buttons">	
+		<a href="http://maps.google.fr/maps?q=jeannette+et+les+cycleux&hl=fr&sll=46.75984,1.738281&sspn=10.221882,18.764648&hq=jeannette+et+les+cycleux&t=m&z=13&iwloc=A" data-role="button" data-icon="maps"> Find us on Google Maps </a> 	
+		<a href="tel:0388161072"  data-role="button" data-icon="tel"> Call us </a>	
+	</div>	-->
 
 
 	<script type="text/javascript">
