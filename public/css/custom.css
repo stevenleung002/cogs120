@@ -54,15 +54,10 @@ box-sizing: border-box;
 }
 
 
-.back-button-shadow, .back-button, .back-button-text {
+.back-button{
+	background-color: #4A2725;
 	float:left;
 }
-/*
-.back-button-shadow {
-	margin-left: -10px;
-	margin-
-}*/
-
 
 /* title bar */
 .ui-header.ui-bar-a{
