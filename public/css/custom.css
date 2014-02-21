@@ -55,8 +55,13 @@ box-sizing: border-box;
 
 
 .back-button{
-	background-color: #4A2725;
 	float:left;
+	margin: 15px 0px 0px 20px;
+}
+
+.back-button img {
+	height: 25px;
+	width: 23px;
 }
 
 /* title bar */
