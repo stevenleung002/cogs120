@@ -88,18 +88,20 @@ box-shadow:none;
 
 #branding{
 /*background:url(/images/logo.png) no-repeat; */
-background-color: white;
+background-color: #5C1111;
 width: inherit;
 height:100px;
 /*text-indent:-999px; */
-font-size:20px;
-font-family: "Mission-Script";
 padding-top: 25px;
 border-bottom:1px solid rgba(65, 38, 37, 0.6);
 }
 
 #branding h1{
 margin: auto;
+font-size:30px;
+font-family: "Mission-Script";
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+color: #FFFFFF;
 }
 .choice_list h1{
 margin-top:30px;
