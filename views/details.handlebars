@@ -22,23 +22,28 @@
 	</div> 
  
 	<p id="name">{{name}} <p>
+
+<div id="place-description">
+	<p class = "label">Current Fullness <div class="fullness {{level}}"></div></p>
+	
 <div id="notation">	
 	<form>
 		<select name="note_utilisateur" id="note_utilisateur" data-native-menu="false" data-theme="c" >
-		   <option value="one" class="one"> Empty </option>
-		   <option value="two" class="two"> Slightly Empty </option>
-		   <option selected="seleced" value="three" class="three"> Slightly Full </option>
-		   <option value="four" class="four"> Full </option>
+		   <option value="level-one" class="one"> Empty </option>
+		   <option value="level-two" class="two"> Slightly Empty </option>
+		   <option value="level-three" class="three"> Slightly Full </option>
+		   <option value="level-four" class="four"> Full </option>
 		</select>	
+		<input type="hidden" id="defaul_level" name="default-level" {{bind-attr value=level}}>
 	</form>
 	</div>
 
 <div>
 <img src="/images/studyroom.jpg" alt="Smiley face" align="center"/>
 </div>	
-<div id="place-description">
+
 <p class = "label">Location</p>
-<p class ="word">{{region}}</p>
+<p class = "word">{{region}}</p>
 <p class = "label">Description</p><img src="smiley.gif" alt="Smiley face"/>
 <p class = "word">{{description}}</p>
 </div>
@@ -54,21 +59,38 @@
 
 	$( '#studyroom' ).live( 'pageinit',function(event){
 		var SelectedOptionClass = $('option:selected').attr('class');
+		//console.log($('div.ui-select'));
+
 		$('div.ui-select').addClass(SelectedOptionClass);
-		
+
 		$('#note_utilisateur').live('change', function(){	 
 			$('div.ui-select').removeClass(SelectedOptionClass);
 			
 			SelectedOptionClass = $('option:selected').attr('class');
 			$('div.ui-select').addClass(SelectedOptionClass);		
 			
+			console.log($('div.ui-select'));
 		 });
 		
 	  
 	});
 
-	</script>
+	$("select").bind ("change", changeFullness);
+
+	function changeFullness(e){
+		e.preventDefault();
+
+		var level = $(this).val();
+		var place = $('#name').text().trim();
+		console.log(place + ":" + level);
+		$.get('/place/update/' + place +'/' + level, changeFullnessCB);
+	}
+	function changeFullnessCB (result){
+		console.log(result);
+		alert("Fullness Updated!");
+	}
 	
+	</script>
 
 	</div>
 
