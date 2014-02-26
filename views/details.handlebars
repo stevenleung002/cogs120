@@ -26,7 +26,7 @@
 <div id="place-description">
 	<center><p class="label"><strong>CURRENT FULLNESS</strong>:<p> 
 		<div class="fullness {{level}}"></div></center>
-	
+	<p>Please Update Fullness Level:</p>
 <div id="notation">	
 	<form>
 		<select name="note_utilisateur" id="note_utilisateur" data-native-menu="false" data-theme="c" >
@@ -36,6 +36,7 @@
 		   <option value="level-four" class="four"> Full </option>
 		</select>	
 		<input type="hidden" id="defaul_level" name="default-level" {{bind-attr value=level}}>
+		<input type="button" value="Update" onClick="window.location.reload()">
 	</form>
 	</div>
 
@@ -91,7 +92,7 @@
 	}
 	function changeFullnessCB (result){
 		console.log(result);
-		alert("Fullness Updated!");
+		//alert("Fullness Updated!");
 	}
 	
 	</script>
