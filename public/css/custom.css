@@ -267,6 +267,11 @@ background-size: 36px 20px;
 position:absolute;
 left:0px;
 }
+.placeholder #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li a:before{
+background-position: -36px 0px;
+}
+
 .one #note_utilisateur-button span.ui-btn-text,
 #note_utilisateur-menu li a:before{
 background-position: -27px 0px;

@@ -26,17 +26,20 @@
 <div id="place-description">
 	<center><p class="label"><strong>CURRENT CROWDEDNESS</strong>:<p> 
 		<div class="fullness {{level}}"></div></center>
-	<p>Please Update Crowdedness Level:</p>
+	<!--<p>Please Update Crowdedness Level:</p>-->
+
 <div id="notation">	
 	<form>
 		<select name="note_utilisateur" id="note_utilisateur" data-native-menu="false" data-theme="c" >
+		   <option value="" data-placeholder="true" class="placeholder">Please Update Crowdedness</option>		
 		   <option value="level-one" class="one"> Empty </option>
 		   <option value="level-two" class="two"> Slightly Empty </option>
 		   <option value="level-three" class="three"> Slightly Crowded </option>
 		   <option value="level-four" class="four"> Crowded </option>
+
 		</select>	
 		<input type="hidden" id="defaul_level" name="default-level" {{bind-attr value=level}}>
-		<input type="button" value="Update" onClick="window.location.reload()">
+		<!--<input type="button" value="Update" onClick="window.location.reload()">-->
 	</form>
 	</div>
 
@@ -87,11 +90,13 @@
 
 		var level = $(this).val();
 		var place = $('#name').text().trim();
-		console.log(place + ":" + level);
+		//alert(place + ":" + level);
 		$.get('/place/update/' + place +'/' + level, changeFullnessCB);
 	}
 	function changeFullnessCB (result){
 		console.log(result);
+		//if(result.status == "success")
+			window.location.reload();
 		//alert("Fullness Updated!");
 	}
 	
