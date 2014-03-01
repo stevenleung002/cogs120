@@ -71,7 +71,7 @@ background:url(/images/header_bg.png);
 .ui-header .ui-title {
 text-indent:-9999px;
 font-size:0px;
-background:url(/images/header_logo.png) no-repeat 69% 5px ;
+
 height:33px;
 padding:5px 0 5px 50px;
 margin:0px;
@@ -266,6 +266,10 @@ background:url(/images/fullness_icon_tb.png) no-repeat;
 background-size: 36px 20px;
 position:absolute;
 left:0px;
+}
+.placeholder #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li a:before{
+background-position: -36px 0px;
 }
 
 .one #note_utilisateur-button span.ui-btn-text,
