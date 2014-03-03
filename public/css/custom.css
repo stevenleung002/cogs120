@@ -143,6 +143,17 @@ color:#fff;
 padding:3px;
 }
 
+#home{
+	padding-bottom:50px;
+}
+#studyroom{
+	padding-bottom:75px;
+
+}
+#choisir_ville{
+	padding-bottom:50px;
+
+}
 
 
 /** Chose the town **/
@@ -345,4 +356,24 @@ background-position: 0px 0px;
 #description {
 	font-size: 15pt;
 	margin: 0px 10px;
+}
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+.containter{
+  min-height:100%;
+  position:relative;
+}
+.footer {
+	color:#ffffff;
+	background:#591010;
+	width:100%;
+	height:50px;
+	position:absolute;
+	bottom:0;
+	left:0;
 }
