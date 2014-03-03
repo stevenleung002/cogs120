@@ -369,6 +369,7 @@ body {
   position:relative;
 }
 .footer {
+	text-align:center;
 	color:#ffffff;
 	background:#591010;
 	width:100%;
