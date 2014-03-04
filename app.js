@@ -40,7 +40,7 @@ if ('development' == app.get('env')) {
 app.get('/', index.view);
 app.get('/place/:category', place.view);
 app.get('/place/details/:name', place.details);
-app.get('/place/details-test/:name', place.test);
+app.get('/place/details/:name/test', place.test);
 app.get('/place/update/:name/:level', place.update);
 // Example route
 // app.get('/users', user.list);

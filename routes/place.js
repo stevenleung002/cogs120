@@ -67,7 +67,15 @@ exports.update = function(req, res){
 	for (var i = 0; i < locationArr.length; i++) {
 	   	if(locationArr[i].name === place){
 	   		locationArr[i].level = level;
-	  		res.json(200, {status: "sucessfully updated!"});
+	   		//console.log("debug");
+	   		console.log(level);
+	  		res.json({
+	  			status: 'success',
+	  			fullness: level});
+	  		return;
 	   	}
 	}
+	res.json({
+	  			status: 'fail'});
+	return;
 }
