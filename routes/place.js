@@ -32,24 +32,24 @@ exports.details = function(req,res){
 	   		break;
 	   	}
 	}
-	jsonObj.showLabel = true;
+	//jsonObj.showLabel = true;
 	res.render('details', jsonObj);
 }
-exports.test = function(req,res){
-	console.log("name is " + req.params.name);
-	var jsonObj = {};
-	//find the correct place
-	var locationArr = data.locations;
-	for (var i = 0; i < locationArr.length; i++) {
-	   	if(locationArr[i].name.toUpperCase() === req.params.name.toUpperCase()){
-	   		jsonObj = locationArr[i];
+// exports.test = function(req,res){
+// 	console.log("name is " + req.params.name);
+// 	var jsonObj = {};
+// 	//find the correct place
+// 	var locationArr = data.locations;
+// 	for (var i = 0; i < locationArr.length; i++) {
+// 	   	if(locationArr[i].name.toUpperCase() === req.params.name.toUpperCase()){
+// 	   		jsonObj = locationArr[i];
 	   		
-	   		break;
-	   	}
-	}
-	jsonObj.showLabel = false;
-	res.render('details', jsonObj);
-}
+// 	   		break;
+// 	   	}
+// 	}
+// 	jsonObj.showLabel = false;
+// 	res.render('details', jsonObj);
+// }
 
 
 

@@ -1,22 +1,6 @@
 <!DOCTYPE html> 
 <html> 
 <head> 
-<!-- Google Analytics Content Experiment code -->
-<script>function utmx_section(){}function utmx(){}(function(){var
-k='82843090-6',d=document,l=d.location,c=d.cookie;
-if(l.search.indexOf('utm_expid='+k)>0)return;
-function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-</script><script>utmx('url','A/B');</script>
-<!-- End of Google Analytics Content Experiment code -->
-
-
 	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
@@ -51,15 +35,10 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 		   
 		   	<option value="" data-placeholder="true" class="placeholder">Please Update Crowdedness</option>		
 		   
-		   {{#if showLabel}}
 		   	<option value="level-one" class="one"> Empty </option>
 		   	<option value="level-two" class="two"> Slightly Empty </option>
 		   	<option value="level-three" class="three"> Slightly Crowded </option>
 		   	<option value="level-four" class="four"> Crowded </option>
-		   {{else}}
-		    <option value="level-one" class="one"> Empty </option>
-		   	<option value="level-four" class="four"> Crowded </option>
-		   {{/if}}
 
 		</select>	
 		<input type="hidden" id="defaul_level" name="default-level" {{bind-attr value=level}}>
@@ -111,7 +90,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
 	function changeFullness(e){
 		e.preventDefault();
-		ga("send", "event", "update", "click"); 
+
 		var level = $(this).val();
 		var place = $('#name').text().trim();
 		//alert(place + ":" + level);
