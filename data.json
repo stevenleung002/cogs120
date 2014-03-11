@@ -5,7 +5,7 @@
 			"region": "ERC",
 			"description": "",
 			"capacity":"",
-			"utilities": "",
+			"utilities": "none",
 			"category":	"ERC",
 			"level": "level-one"		
 		},
@@ -242,6 +242,176 @@
 			"utilities": "acms computers",
 			"category":	"Warren",
 			"level": "level-four"			
+		},
+		{
+			"name": "Courtroom",
+			"region": "Warren",
+			"description": " A quit study location next to the student activity center. Has wifi, couaches and lighting ",
+			"capacity":"",
+			"utilities": "couches",
+			"category":	"Warren",
+			"level": "level-one"
+		},
+		{
+		"name": "JK Wood Lounge",
+			"region": "Warren",
+			"description": " Next to the Warren dinning hall Canyon Vista ",
+			"capacity":"large",
+			"utilities": "acms computers",
+			"category":	"Warren",
+			"level": "level-four"
+        },
+        {"name": "Yosemite Room",
+			"region": "CSE",
+			"description": "Open until midnight during finals.",
+			"capacity":"large",
+			"utilities": "lights",
+			"category":	"Warren",
+			"level": "level-four"
+		},
+		{
+			"name": "CSE Building study lounge",
+			"region": "CSE, Warren",
+			"description": "Open 24/7 in Jacobs school of engineering",
+			"capacity":"large",
+			"utilities": "lights",
+			"category":	"Warren",
+			"level": "level-four"
+		},
+		{
+			"name": "Yosemite Room",
+			"region": "CSE",
+			"description": "Open until midnight during finals.",
+			"capacity":"large",
+			"utilities": "lights, wifi",
+			"category":	"Warren",
+			"level": "level-four"
+		},
+		{
+			"name": "Dogg House",
+			"region": "Sixth",
+			"description": "Open 24/7 in Sixth college",
+			"capacity":"large",
+			"utilities": "lights",
+			"category":	"Sixth",
+			"level": "level-one"
+		},
+		{
+			"name": "Commuter Center",
+			"region": "Sixth",
+			"description": "Open 24/7",
+			"capacity":"",
+			"utilities": "none",
+			"category":	"Sixth",
+			"level": "level-one"
+		},
+		{
+			"name": "Digital Playroom",
+			"region": "Sixth",
+			"description": "Open 24/7",
+			"capacity":"",
+			"utilities": "none",
+			"category":	"Sixth",
+			"level": "level-one"
+		},
+		{
+			"name": "Commuter Lounge",
+			"region": "ERC",
+			"description": "Open until midnight during finals.",
+			"capacity":"",
+			"utilities": "none",
+			"category":	"ERC",
+			"level": "level-two"
+		},
+		{
+			"name": "Think Tank",
+			"region": "Revelle",
+			"description": "Open 8 a.m. to 11 p.m., 24/7 during finals week.",
+			"capacity":"",
+			"utilities": "none",
+			"category":	"Revelle",
+			"level": "level-one"
+		},
+		{
+			"name": "Tuolumne Apartments lounge",
+			"region": "Muir",
+			"description": "Open 24/7 during finals week.",
+			"capacity":"",
+			"utilities": "none",
+			"category":	"Muir",
+			"level": "level-one"
+		},
+		{
+			"name": "Muir College Center",
+			"region": "Muir",
+			"description": "Open 24/7 during finals week.",
+			"capacity":"",
+			"utilities": "none",
+			"category":	"Muir",
+			"level": "level-one"
+		},
+	    {
+	    	"name": "Pines",
+			"region": "Muir",
+			"description": "Open 10 a.m. to 8 p.m.",
+			"capacity":"large",
+			"utilities": "Lights",
+			"category":	"Muir",
+			"level": "level-one"
+		},
+		{
+			"name": "Pines",
+			"region": "Muir",
+			"description": "Open 10 a.m. to 8 p.m.",
+			"capacity":"large",
+			"utilities": "none",
+			"category":	"Muir",
+			"level": "level-one"
+		},
+		{
+			"name": "Barnwood",
+			"region": "Revelle",
+			"description": "Open 8 a.m. to 11 p.m., 24/7 during finals week.",
+			"capacity":"large",
+			"utilities": "none",
+			"category":	"Revelle",
+			"level": "level-one"
+		},
+		{
+			"name": "U Lounge",
+			"region": "Marshall",
+			"description": "Open 24/7 for Residents only",
+			"capacity":"large",
+			"utilities": "none",
+			"category":	"Marshall",
+			"level": "level-one"
+		},
+		{
+			"name": "P Lounge",
+			"region": "Marshall",
+			"description": "Open 24/7 for Residents only",
+			"capacity":"large",
+			"utilities": "none",
+			"category":	"Marshall",
+			"level": "level-one"
+		},
+		{
+			"name": "Q Lounge",
+			"region": "Marshall",
+			"description": "Open 24/7 for Residents only",
+			"capacity": "large",
+			"utilities": "none",
+			"category":	"Marshall",
+			"level": "level-one"
+		},
+		{
+			"name": "R Lounge",
+			"region": "Marshall",
+			"description": "Open 24/7 for Residents only",
+			"capacity":"large",
+			"utilities": "none",
+			"category":	"Marshall",
+			"level": "level-one"
 		}
 	]
 }
