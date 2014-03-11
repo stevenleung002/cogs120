@@ -261,14 +261,6 @@
 			"category":	"Warren",
 			"level": "level-four"
         },
-        {"name": "Yosemite Room",
-			"region": "CSE",
-			"description": "Open until midnight during finals.",
-			"capacity":"large",
-			"utilities": "lights",
-			"category":	"Warren",
-			"level": "level-four"
-		},
 		{
 			"name": "CSE Building study lounge",
 			"region": "CSE, Warren",
