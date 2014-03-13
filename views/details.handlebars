@@ -14,6 +14,8 @@
 	<link rel="stylesheet" href="/css/custom.css" />
 	<script src="/js/jquery-1.7.1.min.js"></script>
 	<script src="/js/jquery.mobile-1.0.1.min.js"></script>
+	<script src="/js/moment.min.js"></script>
+	<script src="/js/livestamp.min.js"></script>
 	<!--<script src="/js/custom.js"></script>-->
 </head> 
 <body> 
@@ -27,7 +29,11 @@
 
 <div id="place-description">
 	<center><p class="label"><strong>CURRENT CROWDEDNESS</strong>:<p> 
-		<div id="current_fullness" class="fullness {{level}}"></div></center>
+		<div id="current_fullness" class="fullness {{level}}"></div>
+		<span class="time-label" style="display:inherit;">
+			Last Updated: <span id="dateUpdated" data-livestamp="{{dateUpdated}}">{{dateUpdated}}</span>
+		</span>
+	</center>
 	<!--<p>Please Update Crowdedness Level:</p>-->
 
 <div id="notation">	
@@ -129,6 +135,7 @@
 		console.log(result);
 		if(result.status == "success"){
 			$("#current_fullness").attr("class", "fullness " + result.fullness);
+			$("#dateUpdated").attr("data-livestamp", result.dateUpdated);
 			//alert("Fullness Updated!");
 		}
 		else {
