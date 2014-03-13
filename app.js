@@ -41,7 +41,7 @@ app.get('/', index.view);
 app.get('/place/:category', place.view);
 app.get('/place/details/:name', place.details);
 //app.get('/place/details/:name/test', place.test);
-app.get('/place/update/:name/:level', place.update);
+app.get('/place/update/:name/:level/:dateStr', place.update);
 // Example route
 // app.get('/users', user.list);
 app.get('/add', add.addFriend);

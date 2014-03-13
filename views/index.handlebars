@@ -14,6 +14,7 @@
 	<script src="js/jquery-1.7.1.min.js"></script>
 	<script src="js/jquery.mobile-1.0.1.min.js"></script>
 	<script src="/js/handlebars-v1.3.0.js"></script>
+	<!--<script src="/js/custom.js"></script>-->
 </head> 
 
 <body> 
@@ -31,14 +32,14 @@
 	<h1> Where would you like to study </h1>
 	
 	<ul data-role="listview" data-inset="true">
-	<li><a href="place/Nearby" data-transition="pop"> <img src="images/Near.jpg"/> <h3> Nearby </h3></a></li>
-	<li><a href="place/Libraries"  data-transition="pop"> <img src="images/Geisel.jpg"/> <h3> Libraries </h3></a></li>
-	<li><a href="place/Revelle"  data-transition="pop"> <img src="images/Revelle.jpg"/> <h3> Revelle</h3></a></li>
-	<li><a href="place/Muir"  data-transition="pop"> <img src="images/Muir.jpg"/> <h3> Muir </h3></a></li>
-	<li><a href="place/Marshall"  data-transition="pop"> <img src="images/Marshall.jpg"/> <h3> Marshall</h3></a></li>
-	<li><a href="place/Warren"  data-transition="pop"> <img src="images/Warren.jpg"/> <h3> Warren</h3></a></li>
-	<li><a href="place/ERC"  data-transition="pop"> <img src="images/ERC.jpg"/> <h3> ERC</h3></a></li>
-	<li><a href="place/Sixth"  data-transition="pop"> <img src="images/Sixth.jpg"/> <h3> Sixth </h3></a></li>		
+	<li><a href="place/Nearby" data-ajax="false"> <img src="images/Near.jpg"/> <h3> Nearby </h3></a></li>
+	<li><a href="place/Libraries" data-ajax="false"> <img src="images/Geisel.jpg"/> <h3> Libraries </h3></a></li>
+	<li><a href="place/Revelle" data-ajax="false"> <img src="images/Revelle.jpg"/> <h3> Revelle</h3></a></li>
+	<li><a href="place/Muir" data-ajax="false"> <img src="images/Muir.jpg"/> <h3> Muir </h3></a></li>
+	<li><a href="place/Marshall" data-ajax="false"> <img src="images/Marshall.jpg"/> <h3> Marshall</h3></a></li>
+	<li><a href="place/Warren" data-ajax="false"> <img src="images/Warren.jpg"/> <h3> Warren</h3></a></li>
+	<li><a href="place/ERC"  data-ajax="false"> <img src="images/ERC.jpg"/> <h3> ERC</h3></a></li>
+	<li><a href="place/Sixth" data-ajax="false"> <img src="images/Sixth.jpg"/> <h3> Sixth </h3></a></li>		
 	</ul>	
 	
 	</div>
@@ -56,7 +57,14 @@
   ga('create', 'UA-48462995-2', 'studyfinder.herokuapp.com');
   //ga('create', 'UA-48462995-2', { 'cookieDomain': 'none' });
   ga('send', 'pageview');
+$.mobile.page.prototype.options.domCache = false;
+$("div:jqmData(role='page'):last").bind('pageinit', function(){
+          //your code here - $.mobile.activePage not declared
+});
 
+$("div:jqmData(role='page'):last").bind('pageshow', function(){
+      //your code here - $.mobile.activePage works now
+});
 </script>
 </body>
 </html>

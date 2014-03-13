@@ -60,18 +60,20 @@ exports.update = function(req, res){
 	//place = S(place).trim().s;
 	var level = S(req.params.level).unescapeHTML().s;
 	//level = S(level).trim().s;
-
-	console.log("name : " + place + ", level: " + level);
+	var dateStr = S(req.params.dateStr).unescapeHTML().s;
+	console.log("name : " + place + ", level: " + level + ", dateStr: " + dateStr);
 
 	var locationArr = data.locations;
 	for (var i = 0; i < locationArr.length; i++) {
 	   	if(locationArr[i].name === place){
 	   		locationArr[i].level = level;
+	   		locationArr[i].dateUpdated = dateStr;
 	   		//console.log("debug");
 	   		console.log(level);
 	  		res.json({
 	  			status: 'success',
-	  			fullness: level});
+	  			fullness: level,
+	  			dateUpdated: dateStr});
 	  		return;
 	   	}
 	}

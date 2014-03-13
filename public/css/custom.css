@@ -384,3 +384,9 @@ body {
 	bottom:0;
 	left:0;
 }
+
+.time-label{
+	font-style: italic; 
+	color:gray; 
+	font-size:12px;
+}

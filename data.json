@@ -7,7 +7,8 @@
 			"capacity":"",
 			"utilities": "none",
 			"category":	"ERC",
-			"level": "level-one"		
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"		
 		},
 		{
 			"name": "Peets",
@@ -16,7 +17,8 @@
 			"capacity":"20",
 			"utilities": "couches, acms computers, coffee",
 			"category":	"ERC",
-			"level": "level-two"			
+			"level": "level-two",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "S&E",
@@ -25,7 +27,8 @@
 			"capacity":"60",
 			"utilities": "tables, cell-phone reception, power outlets, group study, natural light",
 			"category":	"Libraries",
-			"level": "level-four"
+			"level": "level-four",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},		
 		{
 			"name": "BML",
@@ -34,7 +37,8 @@
 			"capacity":"100",
 			"utilities": "tables, ACMS computers, study rooms",
 			"category":	"Libraries",
-			"level": "level-two"		
+			"level": "level-two",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"			
 		},
 		{
 			"name": "Arts and Humanities",
@@ -43,7 +47,8 @@
 			"capacity":"100",
 			"utilities": "group study tables, acms computers, access to media reserves",
 			"category":	"Libraries",
-			"level": "level-three"			
+			"level": "level-three",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Commuter Lounge",
@@ -52,7 +57,8 @@
 			"capacity":"20",
 			"utilities": "couches",
 			"category":	"Marshall",
-			"level": "level-one"			
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Fireside Lounge",
@@ -61,7 +67,8 @@
 			"capacity":"20",
 			"utilities": "couches, tables",
 			"category":	"Marshall",
-			"level": "level-one"			
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Muir Woods",
@@ -70,7 +77,8 @@
 			"capacity":"20",
 			"utilities": "indoors: couches, coffee; outdoors: study ledges and tables",
 			"category":	"Muir",
-			"level": "level-two"			
+			"level": "level-two",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "AP&M Basement",
@@ -79,7 +87,8 @@
 			"capacity":"50",
 			"utilities": "acms computer labs, math helproom",
 			"category":	"Muir",
-			"level": "level-four"			
+			"level": "level-four",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "MOM",
@@ -88,7 +97,8 @@
 			"capacity":"30",
 			"utilities": "tables, couches, 2 acms computers, printer",
 			"category":	"Muir",
-			"level": "level-three"			
+			"level": "level-three",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Perks",
@@ -97,7 +107,8 @@
 			"capacity":"30",
 			"utilities": "tables, coffee, coffee-shop music",
 			"category":	"Nearby",
-			"level": "level-four"			
+			"level": "level-four",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Cafe Espresso Roma",
@@ -106,7 +117,8 @@
 			"capacity":"30",
 			"utilities": "tables, coffee, ambient light and music",
 			"category":	"Nearby",
-			"level": "level-three"			
+			"level": "level-three",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Cross Cultural Center Lobby",
@@ -115,7 +127,8 @@
 			"capacity":"15",
 			"utilities": "acms computers, printer",
 			"category":	"Nearby",
-			"level": "level-one"			
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "PC Theatre",
@@ -124,7 +137,8 @@
 			"capacity":"15",
 			"utilities": "couches, tables",
 			"category":	"Nearby",
-			"level": "level-two"			
+			"level": "level-two",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Secret Garden",
@@ -133,7 +147,8 @@
 			"capacity":"8",
 			"utilities": "tables, quiet",
 			"category":	"Other",
-			"level": "level-one"			
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Women's Center",
@@ -142,7 +157,8 @@
 			"capacity":"20",
 			"utilities": "printer, couches, tables",
 			"category":	"Other",
-			"level": "level-one"			
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Tree House Lounge",
@@ -151,7 +167,8 @@
 			"capacity":"13",
 			"utilities": "acms computers",
 			"category":	"Other",
-			"level": "level-one"			
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "LGBTRC",
@@ -160,7 +177,8 @@
 			"capacity":"30",
 			"utilities": "tables, acms computers, printer",
 			"category":	"Other",
-			"level": "level-two"			
+			"level": "level-two",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Commuter Lounge",
@@ -169,7 +187,8 @@
 			"capacity":"15",
 			"utilities": "couches, tables",
 			"category":	"Revelle",
-			"level": "level-one"			
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Galbraith Study Hall",
@@ -178,7 +197,8 @@
 			"capacity":"100",
 			"utilities": "tables, bright lighting",
 			"category":	"Revelle",
-			"level": "level-four"			
+			"level": "level-four",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Steps",
@@ -187,7 +207,8 @@
 			"capacity":"50",
 			"utilities": "giant concrete steps, shade from tree, natural light",
 			"category":	"Sixth",
-			"level": "level-one"			
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Couches",
@@ -196,7 +217,8 @@
 			"capacity":"5",
 			"utilities": "couches, quiet",
 			"category":	"Sixth",
-			"level": "level-one"			
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "B230",
@@ -205,7 +227,8 @@
 			"capacity":"",
 			"utilities": "acms computers",
 			"category":	"Warren",
-			"level": "level-three"			
+			"level": "level-three",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "B240",
@@ -214,7 +237,8 @@
 			"capacity":"",
 			"utilities": "acms computers",
 			"category":	"Warren",
-			"level": "level-three"			
+			"level": "level-three",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "B250",
@@ -223,7 +247,8 @@
 			"capacity":"",
 			"utilities": "acms computers",
 			"category":	"Warren",
-			"level": "level-two"			
+			"level": "level-two",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "B260",
@@ -232,7 +257,8 @@
 			"capacity":"",
 			"utilities": "acms computers",
 			"category":	"Warren",
-			"level": "level-two"			
+			"level": "level-two",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "B270",
@@ -241,7 +267,8 @@
 			"capacity":"",
 			"utilities": "acms computers",
 			"category":	"Warren",
-			"level": "level-four"			
+			"level": "level-four",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"				
 		},
 		{
 			"name": "Courtroom",
@@ -250,7 +277,8 @@
 			"capacity":"",
 			"utilities": "couches",
 			"category":	"Warren",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 		"name": "JK Wood Lounge",
@@ -259,7 +287,8 @@
 			"capacity":"large",
 			"utilities": "acms computers",
 			"category":	"Warren",
-			"level": "level-four"
+			"level": "level-four",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
         },
 		{
 			"name": "CSE Building study lounge",
@@ -268,7 +297,8 @@
 			"capacity":"large",
 			"utilities": "lights",
 			"category":	"Warren",
-			"level": "level-four"
+			"level": "level-four",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Yosemite Room",
@@ -277,7 +307,8 @@
 			"capacity":"large",
 			"utilities": "lights, wifi",
 			"category":	"Warren",
-			"level": "level-four"
+			"level": "level-four",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Dogg House",
@@ -286,7 +317,8 @@
 			"capacity":"large",
 			"utilities": "lights",
 			"category":	"Sixth",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Commuter Center",
@@ -295,7 +327,8 @@
 			"capacity":"",
 			"utilities": "none",
 			"category":	"Sixth",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Digital Playroom",
@@ -304,7 +337,8 @@
 			"capacity":"",
 			"utilities": "none",
 			"category":	"Sixth",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Commuter Lounge",
@@ -313,7 +347,8 @@
 			"capacity":"",
 			"utilities": "none",
 			"category":	"ERC",
-			"level": "level-two"
+			"level": "level-two",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Think Tank",
@@ -322,7 +357,8 @@
 			"capacity":"",
 			"utilities": "none",
 			"category":	"Revelle",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Tuolumne Apartments lounge",
@@ -331,7 +367,8 @@
 			"capacity":"",
 			"utilities": "none",
 			"category":	"Muir",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Muir College Center",
@@ -340,7 +377,8 @@
 			"capacity":"",
 			"utilities": "none",
 			"category":	"Muir",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 	    {
 	    	"name": "Pines",
@@ -349,7 +387,8 @@
 			"capacity":"large",
 			"utilities": "Lights",
 			"category":	"Muir",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Pines",
@@ -358,7 +397,8 @@
 			"capacity":"large",
 			"utilities": "none",
 			"category":	"Muir",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Barnwood",
@@ -367,7 +407,8 @@
 			"capacity":"large",
 			"utilities": "none",
 			"category":	"Revelle",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "U Lounge",
@@ -376,7 +417,8 @@
 			"capacity":"large",
 			"utilities": "none",
 			"category":	"Marshall",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "P Lounge",
@@ -385,7 +427,8 @@
 			"capacity":"large",
 			"utilities": "none",
 			"category":	"Marshall",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "Q Lounge",
@@ -394,7 +437,8 @@
 			"capacity": "large",
 			"utilities": "none",
 			"category":	"Marshall",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		},
 		{
 			"name": "R Lounge",
@@ -403,7 +447,8 @@
 			"capacity":"large",
 			"utilities": "none",
 			"category":	"Marshall",
-			"level": "level-one"
+			"level": "level-one",
+			"dateUpdated": "2014-03-11T18:37:59.430Z"	
 		}
 	]
 }
